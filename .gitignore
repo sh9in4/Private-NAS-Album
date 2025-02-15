@@ -169,3 +169,11 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Original
+config.ini
+folder_cache.json
+nohup.out
+
+static/images/*
+old/

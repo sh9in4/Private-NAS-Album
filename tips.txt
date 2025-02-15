@@ -1,0 +1,8 @@
+# nohup でバックグラウンド実行させておく
+nohup python app.py &
+
+# ps でプロセス確認可能
+ps aux | grep 'python app.py' | grep -v grep
+
+# 5000番でアクセス
+http://***.***.***.***:5000/
