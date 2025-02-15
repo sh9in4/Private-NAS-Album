@@ -6,3 +6,10 @@ ps aux | grep 'python app.py' | grep -v grep
 
 # 5000番でアクセス
 http://***.***.***.***:5000/
+
+===
+
+# firewall
+firewall-cmd --add-port=5000/tcp --zone=public --permanent
+firewall-cmd --reload
+firewall-cmd --list-all
